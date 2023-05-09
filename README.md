@@ -1,6 +1,5 @@
 # Experiment 4 Implementation of MLP for non linear separable problem
 ## AIM:
-
 To implement a perceptron for classification using Python
 
 ## EQUIPMENTS REQUIRED:
@@ -40,11 +39,10 @@ Step 3: Repeat the  iteration  until the losses become constant and
 Step 4 : Test for the XOR patterns.
 
 ## PROGRAM
-~~~
+```python
 Developed By: Kiran J
 Reg No.: 212221240022
-~~~
-```python
+
 import numpy as np
 import pandas as pd
 import io
@@ -58,7 +56,6 @@ n_y = 1
 n_h = 2
 
 m = x.shape[1]
-
 lr = 0.1
 
 np.random.seed(2)
